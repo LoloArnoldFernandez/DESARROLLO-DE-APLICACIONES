@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+}
+body:checked {
+    margin-left: 25px;
+    border: 1px solid bisque;
+}
+p:hover { 
+    text-decoration:underline; 
+} 
+
+input:focus{
+    background-color: azure;
+    color:black;
+    border-color: papayawhip;
+    border-radius: 20px;
+}
+
+input:default {
+    background-color: lightblue;
+}
+
+#encabezado {
+    background-color: lightcoral;
+    font-size: 16px;
+    text-align: center;
+}
